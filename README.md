@@ -2,8 +2,8 @@
 自動でcommit/push/pullを行う
 
 ```
-git clone git@github.com:shucream/git-link.git ~/.gitlink
-
+$ git clone git@github.com:shucream/git-link.git ~/.gitlink
+$ echo 'export PATH="$HOME/.gitlink/bin:$PATH"' >> ~/.bash_profile
 ```
 
 ## how to use
