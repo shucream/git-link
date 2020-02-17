@@ -42,7 +42,7 @@ start() {
     FLAG_A="false"
     FLAG_B="false"
     FLAG_D="false"
-    VALUE_A=3000
+    VALUE_A=300
     VALUE_B="$(git symbolic-ref --short HEAD)"
     shift
     while (( $# > 0 ))
