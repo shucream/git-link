@@ -5,7 +5,7 @@ DIR=$(dirname $(cd $(dirname $0);pwd))
 PID_FILE="$DIR"
 LOG_FILE="$DIR/etc/log"
 
-trap 'echo "" > etc/pid'
+trap 'echo "" > etc/pid' 2
 
 TARGET_DIR=$1
 INTERVAL_TIME=$2
