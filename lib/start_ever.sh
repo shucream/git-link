@@ -24,10 +24,10 @@ while [ "1" = "1" ];
 do
 CURRENT_BRANCH="$(git symbolic-ref --short HEAD)"
 if [ "$CURRENT_BRANCH" = "$TARGET_BRANCH" ]; then
-    git add .
-    git commit -m "auto commit"
-    git push origin $TARGET_BRANCH
-    git pull origin $TARGET_BRANCH
+    "git add ."
+    "git commit -m 'auto commit'"
+    "git push origin $TARGET_BRANCH"
+    "git pull origin $TARGET_BRANCH"
     echo "Success"
 else
     echo "Fail by different branch $CURRENT_BRANCH"
