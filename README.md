@@ -1,6 +1,11 @@
 # Gitlink
 自動でcommit/push/pullを行う
 
+```
+git clone git@github.com:shucream/git-link.git ~/.gitlink
+
+```
+
 ## how to use
 
 ```

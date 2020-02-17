@@ -1,9 +1,11 @@
 #!/bin/zsh
 
 
-DIR=$(cd $(dirname $0);pwd) 
+DIR=$(dirname $(cd $(dirname $0);pwd)) 
 PID_FILE="$DIR"
 LOG_FILE="$DIR/etc/log"
+
+trap 'echo "" > etc/pid'
 
 TARGET_DIR=$1
 INTERVAL_TIME=$2
