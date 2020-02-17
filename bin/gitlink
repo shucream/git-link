@@ -15,11 +15,6 @@ usage_exit() {
     exit 1
 }
 
-nohup_func() {
-    sleep 20
-    echo "done"
-}
-
 # 時間ごとにadd commit push pullを行う
 start_ever() {
     echo "Start ever "
